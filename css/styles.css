@@ -54,20 +54,11 @@ p {
 }
 
 
+.ui.compact.menu {
 
-
-select {
-  width: 94%;
-  margin: 17px 0 11px 2%;
-  float: left;
-  text-align: center;
-  height: 75px;
-  overflow: hidden;
-  background: url(..img/arrow.png) no-repeat right #ddd;
-  -webkit-appearance: none;
+  display: none;
 
 }
-
 
 
 
@@ -79,25 +70,52 @@ select {
 /** 
 Modify CSS to hide links on small width and show button and select
 Also hides select and button on larger width and show's links
-  */
+
+  
+    */
   
 
+
+
 @media (min-width: 320px) and (max-width: 568px) {
+
+
+
   .ui.menu {
     display:none;
   }
+
+
+
+.ui.compact.menu {
+
+  display: block;
+
 }
 
+
+
+}
+
+
+
+
+
+
 @media (min-width: 568px) {
+
+
+
   .ui.menu select, .ui.menu button {
     display:none;
   }
+
+
+
 }
 
 
   
   
 
-  
-  
 
