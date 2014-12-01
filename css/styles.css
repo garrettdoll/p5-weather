@@ -14,64 +14,29 @@ body {
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
-
-
-}
-
-
-
-
-.column.none {
-
-  display: none;
-
 }
 
 
 .ui.menu {
   background: white;
-  padding: 0 5px 0;
   text-align: center;
+  width: 500px;
+  margin-left: 25%;
 }
 
-ul {
-  list-style: none;
-}
 
-ul li {
-  display: inline-block;
-  width: 100px;
-  text-align: center;
-}
-
-ul li a {
-  color: #fff;
-  width: 100%;
-  line-height: 60px;
-  text-decoration: none;
-}
-
-ul li.selected {
-  background: #fff;
-}
-
-ul li.selected a {
-  color: #384047;
+.ui.menu .item, .ui.menu .item>a:not(.button) {
+  color: orange;
+  font-size: 15px;
 }
 
 
 
-h1 {
-  margin: 40px 0 10px;
-  text-align: center;
-  color: #384047;
-}
 
 
-p {
-  text-align: center;
-  color: #777;
-}
+
+
+
 
 
 .ui.compact.menu {
@@ -85,7 +50,7 @@ p {
 
 
 #weather h2 {
-
+  font-family: 'Arvo', serif;
   font-size: 100px;
   color: purple;
   text-align: center;
@@ -96,7 +61,7 @@ p {
 
 
 #weather li {
-
+font-family: 'Arvo', serif;
   color: purple;
   text-align: center;
 
