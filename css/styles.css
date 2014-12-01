@@ -20,8 +20,8 @@ body {
 .ui.menu {
   background: white;
   text-align: center;
-  width: 500px;
-  margin-left: 25%;
+
+
 }
 
 
@@ -52,7 +52,7 @@ body {
 #weather h2 {
   font-family: 'Arvo', serif;
   font-size: 100px;
-  color: purple;
+  color: white;
   text-align: center;
   margin-bottom: 25px;
 
@@ -61,21 +61,41 @@ body {
 
 
 #weather li {
-font-family: 'Arvo', serif;
+  font-family: 'Arvo', serif;
   color: purple;
   text-align: center;
+  padding: 2% 0;
+  margin: 25px;
+  width: 100%;
+  background-color: white;
+  padding: 1em;
+  border-radius: 50px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
+
+
+
+
+
+.ui.grid>.column {
+  margin-top: 5%;
+  margin-bottom: 1rem;
+}
+
+
+
+.ui.segment {
+  position: relative;
+  background-color: transparent;
 
 }
 
 
 
-ul li {
-/* display: inline-block; */
-width: 100%;
-text-align: center;
-padding: 2% 0;
-}
 
 
 /** Start Coding Here **/
