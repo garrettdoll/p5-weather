@@ -56,7 +56,7 @@ $(document).ready(function() {
 
 
 // store names of CSS classes in an array
-var bgPat = ['bg0', 'bg1', 'bg2'];
+var bgPat = ['bg0', 'bg1', 'bg2', 'bg3', 'bg4'];
 
 // random number function
 var getRand = function(limit) {
@@ -68,7 +68,7 @@ var getRand = function(limit) {
 
 };
 
-var bgRand = getRand(3);
+var bgRand = getRand(5);
 
 // on page reload a number between 0-to-2
 // concatenate 'bg' plus number between 0-to-2

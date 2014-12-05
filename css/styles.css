@@ -1,24 +1,31 @@
-.bg0 {
-  background: url("http://subtlepatterns.com/patterns/escheresque_ste.png");
+
+
+html {
+    background: url(../img/clock.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-.bg1 {
-  background: url("http://subtlepatterns.com/patterns/diamond_upholstery.png");
+
+
+h1 {
+
+  font-family: 'Arvo', serif;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  letter-spacing: 5px;
+
 }
 
-.bg2 {
-  background: url("http://subtlepatterns.com/patterns/retina_wood.png");
-}
+.titlecity {
 
-
-
-
-
-
-
-body {
-
-  background: tomato;
+  font-size: 50px;
+  margin-bottom: -10px;
+  color: white;
 
 }
 
@@ -33,25 +40,64 @@ body {
 
 p {
   font-family: 'Arvo', serif;
-
   margin-top: 15px;
+  color: rgb(144, 175, 217);
 
 }
 
 
 li {
   font-family: 'Arvo', serif;
-
   list-style: none;
   padding: 15px;
   font-size: 25px;
+  color: rgb(144, 175, 217);
 
 }
 
 h2 {
   font-family: 'Arvo', serif;
-
   font-size: 100px;
+  margin: 10px 0;
+  color: rgb(144, 175, 217);
 
 
 }
+
+
+
+
+
+/* Mobile */
+@media screen and (min-width: 0px) {
+
+}
+
+
+
+@media screen and (min-width: 320px) {
+
+
+}
+
+
+
+/* Tablet */
+@media screen and (min-width: 500px) {
+
+
+
+
+}
+
+
+
+/* Desktop */
+@media screen and (min-width: 1140px) {
+
+
+
+
+}
+
+
