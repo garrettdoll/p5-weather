@@ -1,154 +1,57 @@
-* {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+.bg0 {
+  background: url("http://subtlepatterns.com/patterns/escheresque_ste.png");
 }
+
+.bg1 {
+  background: url("http://subtlepatterns.com/patterns/diamond_upholstery.png");
+}
+
+.bg2 {
+  background: url("http://subtlepatterns.com/patterns/retina_wood.png");
+}
+
+
+
+
 
 
 
 body {
 
-    background: url(../img/spo.png) no-repeat center center fixed;
-      -webkit-background-size: cover;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-}
+  background: tomato;
 
-
-.ui.menu {
-  background: white;
-  text-align: center;
-
-
-}
-
-
-.ui.menu .item, .ui.menu .item>a:not(.button) {
-  color: orange;
-  font-size: 15px;
-}
-
-
-
-
-
-
-
-
-
-
-.ui.compact.menu {
-
-  display: none;
-
-}
-
-
-
-
-
-#weather h2 {
-  font-family: 'Arvo', serif;
-  font-size: 100px;
-  color: white;
-  text-align: center;
-  margin-bottom: 25px;
-
-}
-
-
-
-#weather li {
-  font-family: 'Arvo', serif;
-  color: purple;
-  text-align: center;
-  padding: 2% 0;
-  margin: 25px;
-  width: 100%;
-  background-color: white;
-  padding: 1em;
-  border-radius: 50px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-
-
-
-
-
-.ui.grid>.column {
-  margin-top: 5%;
-  margin-bottom: 1rem;
 }
 
 
 
 .ui.segment {
-  position: relative;
-  background-color: transparent;
+
+  text-align: center;
 
 }
 
 
+p {
+  font-family: 'Arvo', serif;
 
-
-
-/** Start Coding Here **/
-
-/** 
-Modify CSS to hide links on small width and show button and select
-Also hides select and button on larger width and show's links
-
-  
-    */
-  
-
-
-
-@media (min-width: 320px) and (max-width: 568px) {
-
-
-
-  .ui.menu {
-    display:none;
-  }
-
-
-
-.ui.compact.menu {
-
-  display: block;
+  margin-top: 15px;
 
 }
 
 
+li {
+  font-family: 'Arvo', serif;
+
+  list-style: none;
+  padding: 15px;
+  font-size: 25px;
 
 }
 
+h2 {
+  font-family: 'Arvo', serif;
 
-
-
-
-
-@media (min-width: 568px) {
-
-
-
-  .ui.menu select, .ui.menu button {
-    display:none;
-  }
-
+  font-size: 100px;
 
 
 }
-
-
-  
-  
-
-
