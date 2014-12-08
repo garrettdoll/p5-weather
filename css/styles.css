@@ -1,7 +1,7 @@
 
 
 html {
-    background: url(../img/clock.png) no-repeat center center fixed;
+    background: url(../img/bg.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -21,11 +21,21 @@ h1 {
 
 }
 
-.titlecity {
+.titletop {
 
   font-size: 50px;
   margin-bottom: -10px;
   color: white;
+  text-shadow: 2px 2px #635a44;
+
+
+}
+
+.titlebottom {
+
+  font-size: 30px;
+  color: white;
+  text-shadow: 2px 2px #635a44;
 
 }
 
@@ -41,7 +51,8 @@ h1 {
 p {
   font-family: 'Arvo', serif;
   margin-top: 15px;
-  color: rgb(144, 175, 217);
+  color: #99d9ed;
+
 
 }
 
@@ -49,9 +60,10 @@ p {
 li {
   font-family: 'Arvo', serif;
   list-style: none;
-  padding: 15px;
+  padding: 6px;
   font-size: 25px;
-  color: rgb(144, 175, 217);
+  color: #99d9ed;
+
 
 }
 
@@ -59,13 +71,25 @@ h2 {
   font-family: 'Arvo', serif;
   font-size: 100px;
   margin: 10px 0;
-  color: rgb(144, 175, 217);
+  color: #99d9ed;
+
 
 
 }
 
 
+.ui.card {
 
+  background: white;
+
+
+}
+
+ul {
+
+  margin-right: 35px;
+
+}
 
 
 /* Mobile */
