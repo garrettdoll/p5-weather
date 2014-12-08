@@ -1,14 +1,5 @@
 
 
-html {
-    background: url(../img/bg.png) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
 
 
 h1 {
@@ -51,7 +42,9 @@ h1 {
 p {
   font-family: 'Arvo', serif;
   margin-top: 15px;
-  color: #99d9ed;
+  color: white;
+  background-color: #99d9ed;
+
 
 
 }
@@ -92,22 +85,36 @@ ul {
 }
 
 
+
+.ui.button {
+
+background-color: #99d9ed;
+color: white;
+margin: 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
 /* Mobile */
-@media screen and (min-width: 0px) {
+@media screen and (max-width: 375px) {
+
+
+html {
+    background: none;
+    background-color: #99d9ed;
 
 }
 
 
-
-@media screen and (min-width: 320px) {
-
-
-}
-
-
-
-/* Tablet */
-@media screen and (min-width: 500px) {
 
 
 
@@ -116,12 +123,19 @@ ul {
 
 
 
-/* Desktop */
-@media screen and (min-width: 1140px) {
+@media screen and (min-width: 376px) {
 
 
-
+html {
+    background: url(../img/bg.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
 }
+
 
 
