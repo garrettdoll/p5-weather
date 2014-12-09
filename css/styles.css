@@ -1,3 +1,10 @@
+.column img {
+
+  margin: auto;
+
+}
+
+
 
 .ui.action.input {
 
@@ -48,7 +55,7 @@ p {
   font-family: 'Arvo', serif;
   margin-top: 15px;
   color: white;
-  background-color: #99d9ed;
+  background-color: #6BC28D;
 
 
 
@@ -60,7 +67,7 @@ li {
   list-style: none;
   padding: 6px;
   font-size: 25px;
-  color: #99d9ed;
+  color: #6BC28D;
 
 
 }
@@ -69,7 +76,7 @@ h2 {
   font-family: 'Arvo', serif;
   font-size: 100px;
   margin: 10px 0;
-  color: #99d9ed;
+  color: #6BC28D;
 
 
 
@@ -87,7 +94,7 @@ ul {
 
 .ui.button {
 
-background-color: #99d9ed;
+background-color: #6BC28D;
 color: white;
 margin: 0;
 
@@ -103,7 +110,7 @@ margin: 0;
 
       html {
           background: none;
-          background-color: #99d9ed;
+          background-color: #8F7141;
 
       }
 
@@ -128,15 +135,6 @@ margin: 0;
 
       }
 
-      html {
-          background: url(../img/bg.png) no-repeat center center fixed;
-          -webkit-background-size: cover;
-          -webkit-background-size: cover;
-          -moz-background-size: cover;
-          -o-background-size: cover;
-          background-size: cover;
-      }
-
 
 
 }
@@ -150,7 +148,7 @@ margin: 0;
 
         .ui.grid .column>.ui.segment:only-child  {
 
-          margin: 0px 100px;
+          margin: 0px 150px;
 
         }
 
@@ -166,7 +164,7 @@ margin: 0;
 
         .ui.grid .column>.ui.segment:only-child {
 
-          margin: 0px 200px;
+          margin: 0px 300px;
 
         }
 
