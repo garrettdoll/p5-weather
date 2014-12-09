@@ -1,4 +1,9 @@
 
+.ui.action.input {
+
+ margin: auto;
+
+}
 
 
 
@@ -71,12 +76,6 @@ h2 {
 }
 
 
-.ui.card {
-
-  background: white;
-
-
-}
 
 ul {
 
@@ -99,18 +98,46 @@ margin: 0;
 
 
 
+/* Mobile */
+@media screen and (min-width: 1px) {
+
+      html {
+          background: none;
+          background-color: #99d9ed;
+
+      }
+
+
+
+
+}
 
 
 
 
 
 /* Mobile */
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 345px) {
 
 
-html {
-    background: none;
-    background-color: #99d9ed;
+
+
+      .ui.grid .column>.ui.segment:only-child  {
+
+        margin: 0px 50px;
+
+      }
+
+      html {
+          background: url(../img/bg.png) no-repeat center center fixed;
+          -webkit-background-size: cover;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+      }
+
+
 
 }
 
@@ -118,24 +145,33 @@ html {
 
 
 
+/* tablet */
+@media screen and (min-width: 768px) {
+
+        .ui.grid .column>.ui.segment:only-child  {
+
+          margin: 0px 100px;
+
+        }
+
+
+
+
 
 }
 
 
+/* desktop */
+@media screen and (min-width: 1024px) {
 
-@media screen and (min-width: 376px) {
+        .ui.grid .column>.ui.segment:only-child {
+
+          margin: 0px 200px;
+
+        }
 
 
-html {
-    background: url(../img/bg.png) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+
+
+
 }
-
-}
-
-
-
