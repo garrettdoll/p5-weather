@@ -117,8 +117,8 @@ margin: 0;
 @media screen and (min-width: 1px) {
 
       html {
-          background: none;
-          background-color: #8F7141;
+
+          background: url(../img/feather.png)
 
       }
 
@@ -190,3 +190,8 @@ margin: 0;
 
 
 }
+
+
+
+
+/* Background pattern from subtlepatterns.com */
