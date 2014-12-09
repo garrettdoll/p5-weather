@@ -1,6 +1,14 @@
-.column img {
+.ui.medium.image, .ui.medium.images .image, .ui.medium.images img {
+  width: 150px;
+  font-size: 1rem;
+}
+
+
+img {
 
   margin: auto;
+  width: 150px;
+
 
 }
 
@@ -134,7 +142,10 @@ margin: 0;
         margin: 0px 50px;
 
       }
-
+        .ui.medium.image, .ui.medium.images .image, .ui.medium.images img {
+          width: 150px;
+          font-size: 1rem;
+        }
 
 
 }
@@ -148,12 +159,15 @@ margin: 0;
 
         .ui.grid .column>.ui.segment:only-child  {
 
-          margin: 0px 150px;
+          margin: 0px 250px;
 
         }
 
 
-
+        .ui.medium.image, .ui.medium.images .image, .ui.medium.images img {
+          width: 200px;
+          font-size: 1rem;
+        }
 
 
 }
@@ -164,11 +178,14 @@ margin: 0;
 
         .ui.grid .column>.ui.segment:only-child {
 
-          margin: 0px 300px;
+          margin: 0px 350px;
 
         }
 
-
+        .ui.medium.image, .ui.medium.images .image, .ui.medium.images img {
+          width: 250px;
+          font-size: 1rem;
+        }
 
 
 
